@@ -1,0 +1,54 @@
+Specifikimi i Rastit të Përdorimit
+1. Informacione të përgjithshme
+Emri i rastit të përdorimit:
+ Huazo libër
+Aktori primar:
+ Anëtari
+Aktorët sekondarë:
+ Bibliotekisti
+Përshkrimi:
+ Ky rast përdorimi përshkruan procesin e huazimit të një libri nga biblioteka. Anëtari zgjedh një libër që dëshiron ta huazojë, ndërsa bibliotekisti kontrollon disponueshmërinë e librit dhe e regjistron huazimin në sistem.
+
+2. Parakushtet
+Anëtari duhet të jetë i regjistruar në sistem.
+Libri duhet të ekzistojë në sistem.
+Libri duhet të jetë i lirë për huazim.
+Sistemi duhet të jetë në funksion.
+
+3. Rrjedha kryesore
+Anëtari kërkon huazimin e një libri.
+Bibliotekisti e kontrollon librin në sistem.
+Sistemi verifikon nëse libri është i disponueshëm.
+Bibliotekisti e aprovon huazimin.
+Sistemi e regjistron huazimin.
+Sistemi cakton datën e kthimit.
+Anëtari e merr librin hua.
+
+4. Rrjedhat alternative
+4.1 Libri nuk është i disponueshëm
+Sistemi zbulon se libri është tashmë i huazuar.
+Bibliotekisti e njofton anëtarin që libri nuk mund të huazohet.
+Rasti i përdorimit përfundon pa sukses.
+4.2 Anëtari nuk është i regjistruar
+Bibliotekisti kontrollon të dhënat e anëtarit.
+Sistemi tregon se anëtari nuk është i regjistruar.
+Bibliotekisti e njofton anëtarin që duhet të regjistrohet fillimisht.
+Rasti i përdorimit përfundon pa sukses.
+
+5. Pas-kushtet
+Huazimi regjistrohet në sistem.
+Libri shënohet si i huazuar.
+Data e kthimit ruhet në sistem.
+Në rast të dështimit:
+Nuk bëhet asnjë ndryshim në statusin e librit.
+
+6. Rregullat e biznesit (opsionale)
+Një anëtar mund të huazojë vetëm libra që janë të disponueshëm.
+Çdo libër i huazuar duhet të ketë datë kthimi.
+Vetëm anëtarët e regjistruar mund të huazojnë libra.
+
+7. Shënime
+Ky rast përdorimi realizohet me pjesëmarrjen e bibliotekistit.
+Sistemi duhet të ruajë të gjitha huazimet për qëllime evidence dhe kontrolli.
+
+
